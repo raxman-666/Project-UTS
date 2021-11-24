@@ -1,0 +1,122 @@
+/*index*/
+
+*{
+	margin: 0 auto;
+	font-family: calibri;
+}
+.wrapper{
+	background: url(images/BG.jpg);
+	color: #FFF;
+}
+.header{
+	padding: 30px;
+	height: 70px;
+}
+.judul img{
+	height: 70px;
+	float: left;
+}
+.judul h2{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+.navbar{
+	overflow: hidden;
+	float: right;
+	margin-top: 15px;
+}
+.navbar a{
+	float: left;
+	display: block;
+	text-align: center;
+	color: #FFF;
+	padding: 10px 10px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.navbar a:hover{
+	background: #FFF;
+	color: #000;
+}
+.content {
+	text-align: center;
+	height: 400px;
+	font-size: 30px;
+}
+.content h1{
+	margin-top: 150px;
+}
+.footer{
+	text-align: center;
+	margin-top: 20px;
+	height: 30px;
+}
+
+/*pages 1*/
+
+.headpages{
+	padding: 30px;
+	height: 70px;
+	background : #005DDE;
+	color: #FFF;
+}
+.contentpages{
+	background-color: #F0FFF0;
+	text-align: center;
+	height: 1500px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.contentpages h1{
+	padding-top: 50px;
+}
+.footerpages{
+	text-align: center;
+	padding: 30px;
+	height: 70px;
+	background : #005DDE;
+	color: #FFF;
+}
+.academy{
+	background-color: #F0FFF0;
+	text-align: center;
+	height: 950px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.academy h1{
+	padding-top: 50px;
+}
+.academy ul{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 5px;
+	margin-top: 1px;
+}
+.academy li{
+	float: left;
+	width: 300px;
+	height: 150px;
+	list-style-type: none;
+	background: #FFF;
+	margin: 0px 2px 3px 5px;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+.academy li a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+}
+.learning a:hover{
+	color: blue;
+}
+.academy p{
+	margin-top: 20px;
+}
+.discover li:hover{
+	background: #E6E6FA;
+}
